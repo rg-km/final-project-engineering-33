@@ -1,12 +1,12 @@
 import React from 'react';
 import Footer from '../components/footer/Footer';
 import '../App.css';
-import LoginPage from './LoginPage';
+import Navbar from '../components/Navbar/Navbar';
 
 export default function Home(){
     return(
         <>
-            
+            <Navbar/>
             <Footer/>
         </>
     )
