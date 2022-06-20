@@ -4,12 +4,13 @@ import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import BeasiswaPage from './pages/BeasiswaPage';
 import FormBeasiswa from './pages/FormBeasiswa';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
   return (
     <>
       <Router>
-        <FormBeasiswa/>
+        <ProfilePage/>
       </Router>
     </>
   );
