@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Footer from '../components/footer/Footer';
+import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
 
 //nyambung ke component beasiswa card

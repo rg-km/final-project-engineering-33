@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../App.css';
-import Footer from '../components/footer/Footer';
+import Footer from '../components/Footer/Footer';
 
 export default function LoginPage(){
     return(
