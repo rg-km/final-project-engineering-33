@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import LoginPage from "./pages/LoginPage";
 import BeasiswaPage from "./pages/BeasiswaPage";
-import FormBeasiswa from "./pages/FormBeasiswa";
 import ProfilePage from "./pages/ProfilePage";
 import DonaturPage from "./pages/DonaturPage";
 import DonaturDetail from "./pages/DonaturDetail";

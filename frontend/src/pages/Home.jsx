@@ -2,23 +2,21 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import "../App.css";
 import Navbar from "../components/Navbar/Navbar";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
         <>
+            <Navbar/>
             <section className="flex justify-center bg-cyan-800 p-5">
                 <div className="md:container md:mx-auto">
-
-                    <div className="flex-initial pl-4">
-                        <img src="/images/logo.png" className="w-60" />
-                    </div>
 
                     <div className="flex-initial w-128 p-8 container mx-auto">
                         <h2 className="text-4xl pb-9 pt-6 font-bold text-white">
                             The Best Way to Find Your Scholarship!
                         </h2>
 
-                        <p className="text-xl  justifiy- center pl-4 text-white">
+                        <p className="text-xl  justifiy- center pl-4 text-white mr-14">
                             Schoter is free website to help you find your scholarship for yout better future.
                             There is so many scholarship for yout future, but they can't find it.
                             Because of that, we created this website to help yout find your scholarship.
@@ -74,7 +72,9 @@ export default function Home() {
                         </div>
                         <div class="flex -mx-3">
                             <div class="w-full px-3 mb-5">
-                                <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
+                                <Link to='/beasiswa'>
+                                    <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,12 +1,28 @@
 import React, {Component} from 'react';
 import Footer from '../components/Footer/Footer';
 import Navbar from '../components/Navbar/Navbar';
+import BeasiswaCard from '../components/BeasiswaCard/BeasiswaCard';
+import axios from 'axios'
 
-export default function BeasiswaPage(){
+export default class BeasiswaPage extends Component{
+    state={
+        post:[]
+    }
+    componentDidMount(){ 
+        //axios
+        axios.get('https://jsonplaceholder.typicode.com/posts')
+        .then((result)=>{ 
+            this.setState({
+                post: result.data
+            })
+        })
+    }
+
+    render(){
         return(
             <>
                 <Navbar/>
-                <p className='text-2xl font-semibold mt-5 mb-5'>Beasiswa</p>
+                {/* search bar */}
                 <div className="flex justify-center">
                     <div className="mb-3 xl:w-full">
                         <div className="input-group relative flex items-stretch w-full mb-4 rounded-md">
@@ -30,28 +46,30 @@ export default function BeasiswaPage(){
                         </div>
                     </div>
                 </div>
+                {/* end search bar */}
+                
                 <div className="flex justify-around">
+                    {/* card beasiswa */}
                     <div>
-                        <div className="flex gap-2">
-                            <img className='w-5 h-5' src="./images/logo.png" alt="" />
-                            <div className='max-w-xs'>
-                                <p className='font-semibold text-medium'>Beasiswa mandiri</p>
-                                <p className='desc text-gray-500 text-sm'>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet</p>
-                            </div>
-                        </div>
+                        {
+                            this.state.post.map(post => {
+                                return <BeasiswaCard key={post.id} title={post.title} desc={post.body}/>
+                            })
+                        }
                     </div>
+                    {/* card beasiswa 2 */}
                     <div>
-                    <div className="flex gap-2">
-                        <img className='w-5 h-5' src="./images/logo.png" alt="" />
-                        <div className='max-w-xs'>
-                            <p className='font-semibold text-medium'>Beasiswa mandiri</p>
-                            <p className='desc text-gray-500 text-sm'>lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametlorem ipsum dolor sit amet</p>
-                        </div>
+                        {
+                            this.state.post.map(post => {
+                                return <BeasiswaCard key={post.id} title={post.title} desc={post.body}/>
+                            })
+                        }
                     </div>
-                    </div>
+                    {/* end card beasiswa */}
                     <div className=""></div>
                 </div>
                 <Footer/>
             </>
         )
+    }    
 }

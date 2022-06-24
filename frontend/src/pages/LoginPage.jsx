@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import '../App.css';
 import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar/Navbar';
 
 export default function LoginPage(){
     return(
         <>
+            <Navbar/>
             <div className='grid grid-cols-2'>
                 <div className='bg-cyan-800'>
                     <img src="/images/logo.png" className='w-' alt="" />
