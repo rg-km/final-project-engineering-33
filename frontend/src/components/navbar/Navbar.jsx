@@ -27,9 +27,11 @@ function Navbar() {
     <>
       <nav className='bg-cyan-800'>
         <div className="flex justify-between">
-          <Link to='/' className='mt-3 ml-3 h-14' onClick={closeMobileMenu}>
-              <img src="/images/logo.png" className='w-48' alt="" />
-          </Link>
+          <div className='w-48 pb-2 pl-3'>
+            <Link to='/' className='mt-3 ' onClick={closeMobileMenu}>
+              <img src="/images/logo.png"  alt="" />
+            </Link>
+          </div>
           <div className='navbar-container'>
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -40,7 +42,7 @@ function Navbar() {
                   Home
                 </Link>
               </li>
-              <li className='nav-item'>
+              <li className='nav-item bold'>
                 <Link
                   to='/beasiswa'
                   className='nav-links'
@@ -49,7 +51,7 @@ function Navbar() {
                   Beasiswa
                 </Link>
               </li>
-              <li className='nav-item'>
+              <li className='nav-item bold'>
                 <Link
                   to='/donatur'
                   className='nav-links'
@@ -61,14 +63,14 @@ function Navbar() {
             </ul>
           </div>
           <div className='flex gap-2 items-center'>
-                <Link
-                  to='/profile'
-                  className='flex text-white hover:border-b-4 hover:border-white px-3 py-1 hover:pb-3'
-                  onClick={closeMobileMenu}
-                >
-                  <img src="./images/user.png" className='w-7 h-7' alt="" />
-                  <p>nama user</p>
-                </Link>
+            <Link
+              to='/profile'
+              className='flex text-white hover:border-b-4 hover:border-white px-3 py-1 hover:pb-3'
+              onClick={closeMobileMenu}
+            >
+              <img src="./images/user.png" className='w-7 h-7' alt="" />
+              <p>nama user</p>
+            </Link>
           </div>
         </div>
       </nav>
