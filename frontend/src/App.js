@@ -7,6 +7,9 @@ import ProfilePage from "./pages/ProfilePage";
 import DonaturPage from "./pages/DonaturPage";
 import DonaturDetail from "./pages/DonaturDetail";
 import FormBeasiswa from "./pages/FormBeasiswa";
+import DonaturProfile from "./pages/DonaturProfile";
+import FormDonatur from './pages/Donatur/FormDonatur';
+import ListPendaftar from "./pages/Donatur/ListPendaftar";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route exact path='/login' element={<LoginPage />}></Route>
           <Route exact path='/formbeasiswa' element={<FormBeasiswa />}></Route>
           <Route exact path='/donatur1' element={<DonaturDetail />}></Route>
+          <Route exact path='/donaturprofile' element={<DonaturProfile />}></Route>
+          <Route exact path='/formdonatur' element={<FormDonatur />}></Route>
+          <Route exact path='/pendaftar' element={<ListPendaftar />}></Route>
         </Routes>
       </Router>
     </>

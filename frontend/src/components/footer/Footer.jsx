@@ -8,7 +8,7 @@ export default function Footer(){
                 <p className="font-medium text-2xl text-white flex justify-center mt-2 mb-2">Scholarship Center</p>
                 <div className="flex justify-center">
                     <div className="flex justify-around gap-7 mb-3">
-                        <img src='https://cdn-icons.flaticon.com/png/128/4923/premium/4923005.png?token=exp=1656073126~hmac=ccc58d4eec86a2cf1a31651e141c0887' alt='' className='w-6'/>
+                        <img src='https://cdn-icons-png.flaticon.com/128/747/747562.png' alt='' className='w-6'/>
                         <img src="https://cdn-icons-png.flaticon.com/128/3781/3781736.png" alt="" className='w-5 h-5'/>
                     </div>
                 </div>
