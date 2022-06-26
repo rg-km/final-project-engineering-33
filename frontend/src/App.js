@@ -6,6 +6,7 @@ import BeasiswaPage from "./pages/BeasiswaPage";
 import ProfilePage from "./pages/ProfilePage";
 import DonaturPage from "./pages/DonaturPage";
 import DonaturDetail from "./pages/DonaturDetail";
+import DonaturProfile from "./pages/DonaturProfile";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/profile' element={<ProfilePage />}></Route>
           <Route exact path='/login' element={<LoginPage />}></Route>
           <Route exact path='/donatur1' element={<DonaturDetail />}></Route>
+          <Route exact path='/donaturprofile' element={<DonaturProfile />}></Route>
         </Routes>
       </Router>
     </>
