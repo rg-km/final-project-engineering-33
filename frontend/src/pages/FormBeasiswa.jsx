@@ -32,8 +32,12 @@ function FormBeasiswa(){
                     <input type="email" placeholder='Universitas' className='border rounded-sm border-gray-400 w-full'/>
                 </div>
                 <div className="mx-10 mb-5">
+                    <p>Provinsi</p>
+                    <input type="text" placeholder='Provinsi' className='border rounded-sm border-gray-400 w-full'/>
+                </div>
+                <div className="mx-10 mb-5">
                     <p>Nomor Telepon</p>
-                    <input type="email" placeholder='Nomor telepon' className='border rounded-sm border-gray-400 w-full'/>
+                    <input type="number" placeholder='Nomor telepon' className='border rounded-sm border-gray-400 w-full'/>
                 </div>
                 <div className="mx-10 mb-5">
                     <p>Alamat Lengkap</p>
@@ -43,7 +47,6 @@ function FormBeasiswa(){
                     <button className='bg-blue-500 text-white font-medium rounded-md py-2 px-12'>Submit</button>
                 </div>
             </div>
-            
             <Footer/>
         </div>
     )
