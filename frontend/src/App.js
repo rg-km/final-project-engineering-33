@@ -13,10 +13,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}>
-            <Route path="login" element={<LoginPage />} />
+            {/* <Route path="login" element={<LoginPage />} /> */}
             <Route path="beasiswa" element={<BeasiswaPage />} />
             <Route path="formbeasiswa" component={<FormBeasiswa />} />
             <Route path="profile" component={<ProfilePage />} />
+            {/* <Route path="Donatur" component={<Donatur />} /> */}
           </Route>
         </Routes>
       </Router>
