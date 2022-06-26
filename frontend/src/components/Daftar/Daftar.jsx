@@ -18,9 +18,12 @@ export default function SignUp() {
           <p className='password'>Password</p>
           <input id='password' type={'text'}/>
         </div>
-        <Button>
-          SIGN UP
-        </Button>
+        <p>sudah punya akun? <Link to='/LoginPage'></Link> </p>
+        <Link to='/BeasiswaPage'>
+          <Button>
+            SIGN UP
+          </Button>
+        </Link>
       </div>
     </>
   );
