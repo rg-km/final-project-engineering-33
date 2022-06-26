@@ -14,7 +14,7 @@ function DonaturPage(){
         <>
             <Navbar/>
             <div className="container mx-auto px-5 py-5">
-                <a href="{donatur}" className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100">
+                <a href="{donatur}" className="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-200">
                     <Link
                     to='/donatur1'
                     className='nav-links'
