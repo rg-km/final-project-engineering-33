@@ -8,7 +8,7 @@ function DetailBeasiswa() {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto px-5 py-5">
+            <div className="min-h-screen container mx-auto px-5 py-5">
                 <div class="md:container md:mx-auto ">
                     <img className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg px-5" src="./images/logo.png" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">

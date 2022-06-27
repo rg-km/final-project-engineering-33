@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/login' element={<LoginPage />}></Route>
           <Route exact path='/form' element={<FormBeasiswa />}></Route>
           <Route exact path='/donatur1' element={<DonaturDetail />}></Route>
-          <Route exact path='/beasiswadetail' element={<DetailBeasiswa />}></Route>
+          <Route exact path='/detailbeasiswa' element={<DetailBeasiswa />}></Route>
           <Route exact path='/donaturprofile' element={<DonaturProfile />}></Route>
         </Routes>
       </Router>
