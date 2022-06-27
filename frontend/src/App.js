@@ -8,6 +8,7 @@ import DonaturPage from "./pages/DonaturPage";
 import DonaturDetail from "./pages/DonaturDetail";
 import FormBeasiswa  from "./pages/FormBeasiswa";
 import DetailBeasiswa from "./pages/DetailBeasiswa";
+import DonaturProfile from "./pages/DonaturProfile";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path='/form' element={<FormBeasiswa />}></Route>
           <Route exact path='/donatur1' element={<DonaturDetail />}></Route>
           <Route exact path='/beasiswadetail' element={<DetailBeasiswa />}></Route>
+          <Route exact path='/donaturprofile' element={<DonaturProfile />}></Route>
         </Routes>
       </Router>
     </>

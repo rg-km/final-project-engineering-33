@@ -6,7 +6,10 @@ export default function ProfilePage(){
     return(
         <>
             <Navbar/>
-            <div className="ml-5 font-medium text-xl">Profile Page</div>
+            <section class="container mx-auto flex-col px-6 py-4 mt-5 bg-white shadow">
+                <p class="text-xl font-bold text-gray-800">Profile Page</p>
+            </section>
+
             <div className="flex justify-center">
                 <div className='border-b border-gray-600'>
                     <img src="./images/user.png" className='md:w-40 md:h-40 w-24 h-24 md:mt-10 mt-4 md:ml-8 ml-16' alt="" />
