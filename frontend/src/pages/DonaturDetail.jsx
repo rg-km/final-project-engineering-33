@@ -16,7 +16,7 @@ function DonaturDetail(){
             <section class="container mx-auto flex flex-wrap py-3">
                 <article class="flex flex-col shadow my-4">
                     <a href="#" class="mx-auto">
-                        <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"/>
+                        <img class="hover:opacity-75" src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
                     </a>
                     <div class="bg-white flex flex-col justify-start p-6">
                         <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">NAMA DONATUR</a>
