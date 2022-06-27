@@ -38,7 +38,7 @@ function DonaturDetail(){
                         </ul>
 
                         <div className='flex items-center justify-end'>
-                            <a className="flex items-center justify-end w-40 px-8 py-3 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring mr-20 mb-3" href="/INI_LARINYA_KE_BEASISWA">
+                            <a className="flex items-center justify-end w-40 px-8 py-3 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring mr-20 mb-3">
                                 <Link to='/beasiswa'>
                                     <span className="text-sm font-medium"> DAFTAR </span>
                                 </Link>

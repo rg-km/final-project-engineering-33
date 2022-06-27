@@ -18,7 +18,6 @@ function DetailBeasiswa() {
                     <a href="#" class="mx-auto">
                         <img class="hover:opacity-75" src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
                     </a>
-<<<<<<< HEAD
                     <div class="bg-white flex flex-col justify-start p-6">
                         <a href="#" class="text-3xl font-bold hover:text-gray-700 pb-4">Nama Beasiswa</a>
                         <h1 class="text-2xl font-bold pb-3">Introduction</h1>
@@ -48,10 +47,6 @@ function DetailBeasiswa() {
                                 </svg>
                             </a>
                         </div>
-=======
-                    <div className="flex flex-col justify-between p-4 leading-normal">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Nama Beasiswa</h5>
->>>>>>> 3493aed54e9d42f3b95c13fa129f6793980b8ab3
                     </div>
                 </article>
 
