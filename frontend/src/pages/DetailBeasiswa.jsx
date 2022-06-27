@@ -10,6 +10,9 @@ function DetailBeasiswa() {
             <Navbar />
             <div className="min-h-screen container mx-auto px-5 py-5">
                 <div class="md:container md:mx-auto ">
+                    <a href="#" class="mx-auto">
+                        <img class="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/1000x500?sig=1"/>
+                    </a>
                     <img className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg px-5" src="./images/logo.png" alt="" />
                     <div className="flex flex-col justify-between p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-black">Nama Beasiswa</h5>
