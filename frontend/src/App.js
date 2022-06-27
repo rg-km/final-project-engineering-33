@@ -1,7 +1,7 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import LoginPage from "./pages/LoginPage";
+import RegisterPage from "./pages/RegisterPage";
 import BeasiswaPage from "./pages/BeasiswaPage";
 import ProfilePage from "./pages/ProfilePage";
 import DonaturPage from "./pages/DonaturPage";
@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/beasiswa' element={< BeasiswaPage />}></Route>
           <Route exact path='/donatur' element={<DonaturPage />}></Route>
           <Route exact path='/profile' element={<ProfilePage />}></Route>
-          <Route exact path='/login' element={<LoginPage />}></Route>
+          <Route exact path='/register' element={<RegisterPage />}></Route>
           <Route exact path='/form' element={<FormBeasiswa />}></Route>
           <Route exact path='/donatur1' element={<DonaturDetail />}></Route>
           <Route exact path='/detailbeasiswa' element={<DetailBeasiswa />}></Route>
