@@ -2,12 +2,12 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import "../App.css";
 import Navbar from "../components/Navbar/Navbar";
-import { Link } from 'react-router-dom';
+
 
 export default function Home() {
     return (
         <>
-            <Navbar/>
+            <Navbar />
             <section className="flex justify-center bg-cyan-800 p-5">
                 <div className="md:container md:mx-auto">
 
@@ -26,64 +26,55 @@ export default function Home() {
                             Small changes can make big changes.
                         </p>
                     </div>
-
                 </div>
 
                 {/* FORM LOGIN */}
-                <div class="w-full md:w-1/2 py-6 px-5 md:px-8 bg-white rounded-lg">
-                    <div class="text-center mb-10">
-                        <h1 class="font-bold text-3xl text-gray-900">REGISTER</h1>
-                        <p>Enter your information to register</p>
-                    </div>
-                    <div>
-                        <div class="flex -mx-3">
-                            <div class="w-1/2 px-3 mb-5">
-                                <label for="" class="text-xs font-semibold px-1">First name</label>
-                                <div class="flex">
-                                    <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                    <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="John" />
-                                </div>
-                            </div>
-                            <div class="w-1/2 px-3 mb-5">
-                                <label for="" class="text-xs font-semibold px-1">Last name</label>
-                                <div class="flex">
-                                    <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-account-outline text-gray-400 text-lg"></i></div>
-                                    <input type="text" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="Smith" />
-                                </div>
-                            </div>
+                    <div class="w-full md:w-1/2 py-6 px-5 md:px-8 bg-white rounded-lg bg-white rounded-lg">
+                        <div className="px-8">
+                            <img src="/images/logo3.png" className="w-80 pl-10" />
                         </div>
-                        <div class="flex -mx-3">
-                            <div class="w-full px-3 mb-5">
-                                <label for="" class="text-xs font-semibold px-1">Email</label>
-                                <div class="flex">
-                                    <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                                    <input type="email" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" />
+                        <div class="text-center mb-10">
+                            <h1 class="font-bold text-4xl text-gray-900">LOGIN</h1>
+                            <p>Login Your Account</p>
+                        </div>
+                        <div>
+                            <div class="flex -mx-3">
+                                <div class="w-full mb-5">
+                                    <label for="" class="text-xs font-semibold px-1">Email</label>
+                                    <div class="flex">
+                                        <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
+                                        <input type="email" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="johnsmith@example.com" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="flex -mx-3">
-                            <div class="w-full px-3 mb-12">
-                                <label for="" class="text-xs font-semibold px-1">Password</label>
-                                <div class="flex">
-                                    <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                                    <input type="password" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" />
+                            <div class="flex -mx-3">
+                                <div class="w-full mb-5">
+                                    <label for="" class="text-xs font-semibold px-1">Password</label>
+                                    <div class="flex">
+                                        <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
+                                        <input type="password" class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" placeholder="************" />
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="flex -mx-3">
-                            <div class="w-full px-3 mb-5">
-                                <Link to='/beasiswa'>
-                                    <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">REGISTER NOW</button>
-                                </Link>
+                            <label for="" class="text-xs font-semibold px-1">Role</label>
+                            <div className="mb-5 text-center  flex items-center justify-center pl-9 -mx-7">
+                                <select class="w-full -ml-10 pl-11 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500 " aria-label="Default select example">
+                                    <option selected value="1">Donatur</option>
+                                    <option value="2">Mahasiswa</option>
+                                </select>
+                            </div>
+                            <div class="flex -mx-3">
+                                <div class="w-full px-3 mb-5">
+                                    <button class="block w-full max-w-xs mx-auto bg-indigo-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-lg px-3 py-3 font-semibold">SIGN IN</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
             </section>
 
             {/* 3 POPULAR SCHOLARSHIP */}
             <section className="flex justify-center bg-gray-200 p-5">
-                <div className="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-20">
+                <div className="px-4 pb-10 mx-auto sm:max-w-xl md:max-w-full md:px-24 lg:px-8 lg:py-10">
                     <h1 className="text-5xl pb-9 font-bold text-left">
                         Top 3 Popular Scholarships
                     </h1>
