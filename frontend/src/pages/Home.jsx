@@ -29,9 +29,9 @@ export default function Home() {
                 </div>
 
                 {/* FORM LOGIN */}
-                    <div class="p-8 bg-white rounded-lg">
+                    <div class="w-full md:w-1/2 py-6 px-5 md:px-8 bg-white rounded-lg bg-white rounded-lg">
                         <div className="px-8">
-                            <img src="/images/logo3.png" className="w-80 px-8 pl-8" />
+                            <img src="/images/logo3.png" className="w-80 pl-10" />
                         </div>
                         <div class="text-center mb-10">
                             <h1 class="font-bold text-4xl text-gray-900">LOGIN</h1>
