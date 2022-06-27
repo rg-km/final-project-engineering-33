@@ -39,7 +39,9 @@ function DonaturDetail(){
 
                         <div className='flex items-center justify-end'>
                             <a className="flex items-center justify-end w-40 px-8 py-3 text-white bg-indigo-600 border border-indigo-600 rounded hover:bg-transparent hover:text-indigo-600 active:text-indigo-500 focus:outline-none focus:ring mr-20 mb-3" href="/INI_LARINYA_KE_BEASISWA">
-                                <span className="text-sm font-medium"> DAFTAR </span>
+                                <Link to='/beasiswa'>
+                                    <span className="text-sm font-medium"> DAFTAR </span>
+                                </Link>
                                 <svg className="w-5 h-5 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                 </svg>

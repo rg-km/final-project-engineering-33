@@ -14,7 +14,7 @@ function FormBeasiswa(){
                 <img src="https://cdn-icons-png.flaticon.com/512/6559/6559442.png" className='w-8 h-8' alt="" />
             </div>
 
-            <div className="">    
+            <div className="mb-10">    
                 <div className='mx-10 mb-5'>
                     <p className='mb-3'>Nama Lengkap</p>
                     <input type="text" placeholder='Nama Lengkap' className='border rounded-sm border-gray-400 w-full'/>
