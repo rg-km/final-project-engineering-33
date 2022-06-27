@@ -10,6 +10,9 @@ export default function LoginPage() {
             <section >
                 <div className="min-h-screen flex justify-center bg-cyan-800 p-14">
                     {/* FORM LOGIN */}
+                
+
+
                     <div class="p-8 bg-white rounded-lg">
                         <div className="px-8">
                             <img src="/images/logo3.png" className="w-80 px-8 pl-8" />
